@@ -1,0 +1,36 @@
+2024-03-04 18:34:56.066 | DEBUG    | __main__:figure_click:106 - radio button option: line; line algorithm: Bresenham
+2024-03-04 18:34:56.067 | DEBUG    | __main__:figure_click:107 - <ButtonPress event num=1 x=90 y=130>
+2024-03-04 18:34:56.616 | DEBUG    | __main__:figure_click:106 - radio button option: line; line algorithm: Bresenham
+2024-03-04 18:34:56.617 | DEBUG    | __main__:figure_click:107 - <ButtonPress event num=1 x=550 y=376>
+2024-03-04 18:34:56.626 | DEBUG    | __main__:figure_click:154 - line is drown!
+2024-03-04 18:34:57.156 | DEBUG    | __main__:figure_click:106 - radio button option: line; line algorithm: Bresenham
+2024-03-04 18:34:57.157 | DEBUG    | __main__:figure_click:107 - <ButtonPress event num=1 x=548 y=83>
+2024-03-04 18:34:57.666 | DEBUG    | __main__:figure_click:106 - radio button option: line; line algorithm: Bresenham
+2024-03-04 18:34:57.667 | DEBUG    | __main__:figure_click:107 - <ButtonPress event num=1 x=135 y=423>
+2024-03-04 18:34:57.675 | DEBUG    | __main__:figure_click:154 - line is drown!
+2024-03-04 18:34:59.578 | DEBUG    | __main__:clear_canvas:162 - now canvas is clear
+2024-03-05 17:53:10.138 | DEBUG    | __main__:figure_click:106 - radio button option: line; line algorithm: DDA
+2024-03-05 17:53:10.140 | DEBUG    | __main__:figure_click:107 - <ButtonPress event num=1 x=122 y=372>
+2024-03-05 17:53:10.441 | DEBUG    | __main__:figure_click:106 - radio button option: line; line algorithm: DDA
+2024-03-05 17:53:10.441 | DEBUG    | __main__:figure_click:107 - <ButtonPress event num=1 x=421 y=165>
+2024-03-05 17:53:10.445 | DEBUG    | __main__:figure_click:154 - line is drown!
+2024-03-05 18:11:05.851 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: DDA
+2024-03-05 18:11:05.852 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=263 y=141>
+2024-03-05 18:11:06.313 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: DDA
+2024-03-05 18:11:06.314 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=499 y=252>
+2024-03-05 18:11:06.321 | DEBUG    | __main__:figure_click:134 - line is drown!
+2024-03-05 18:11:10.116 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: Bresenham
+2024-03-05 18:11:10.117 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=217 y=343>
+2024-03-05 18:11:10.675 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: Bresenham
+2024-03-05 18:11:10.675 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=448 y=365>
+2024-03-05 18:11:10.681 | DEBUG    | __main__:figure_click:134 - line is drown!
+2024-03-05 18:11:14.789 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: Wu's line algorithm
+2024-03-05 18:11:14.789 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=141 y=361>
+2024-03-05 18:11:15.500 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: Wu's line algorithm
+2024-03-05 18:11:15.500 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=323 y=412>
+2024-03-05 18:11:15.524 | DEBUG    | __main__:figure_click:134 - line is drown!
+2024-03-05 18:11:20.441 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: Wu's line algorithm
+2024-03-05 18:11:20.442 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=467 y=71>
+2024-03-05 18:11:20.966 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: Wu's line algorithm
+2024-03-05 18:11:20.967 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=601 y=306>
+2024-03-05 18:11:21.000 | DEBUG    | __main__:figure_click:134 - line is drown!

@@ -20,19 +20,22 @@ window = Tk()
 window.title("Graphical Editor")
 window.geometry("800x660")
 window.configure(bg='yellow')
+
+buttons_frame = Frame(window)
+buttons_frame.grid(row=1, column=0)
 """
 canvas layout
 """
-canvas = Canvas(window, width=800, height=500, background="white")
+canvas = Canvas(buttons_frame, width=800, height=500, background="white")
 canvas.grid(row=0, column=0)
 
-clear_canvas_button = Button(window, text="Clear canvas", width=100, background='blue')
-clear_canvas_button.grid(row=3, column=0)
+clear_canvas_button = Button(buttons_frame, text="Clear canvas", width=100, background='blue')
+clear_canvas_button.grid(row=6, column=0)
 
 """
 Debug
 """
-debug_frame = Frame(window)
+debug_frame = Frame(buttons_frame)
 debug_frame.grid(row=4, column=0)
 
 debug_button = Button(debug_frame, text="Debug")
@@ -44,20 +47,12 @@ action radiobutton frame
 
 selected_option = StringVar(value="line")
 
-radiobutton_frame = Frame(window)
-radiobutton_frame.grid(row=1, column=0)
-
-line_radiobutton = Radiobutton(radiobutton_frame, variable=selected_option, text="Line", value="line")
-# circle_radiobutton = Radiobutton(radiobutton_frame, variable=selected_option, text="Circle", value="circle")
-
-# circle_radiobutton.grid(row=0, column=1)
-line_radiobutton.grid(row=0, column=0)
 
 """
 figure frame
 """
 
-figure_frame = Frame(window)
+figure_frame = Frame(buttons_frame)
 figure_frame.grid(row=2, column=0)
 
 """
@@ -66,28 +61,13 @@ methods menu layout
 line_frame = Frame(figure_frame, highlightbackground="black", highlightthickness=1)
 line_frame.grid(row=0, column=0, padx=2, pady=2)
 
-line_label = Label(line_frame, text="Lines", font="Arial")
+line_label = Label(line_frame, text="Figures", font="Arial")
 line_label.grid()
 
-algorithms = ["DDA", "Bresenham", "Wu's line algorithm"]
+algorithms = ["DDA", "Bresenham", "Wu's line algorithm", "Circle", "Ellipse", "Parabola", "Hyperbola"]
 line_box = ttk.Combobox(line_frame, values=algorithms, state="readonly", width=100)
 line_box.current(0)
 line_box.grid()
-
-"""
-circles layout
-"""
-
-# circle_frame = Frame(figure_frame, highlightbackground="black", highlightthickness=1)
-# circle_frame.grid(row=0, column=1, padx=2, pady=2)
-#
-# circle_label = Label(circle_frame, text="Circles", font='Arial')
-# circle_label.grid()
-#
-# circle_box = ttk.Combobox(circle_frame, values=algorithms, state="readonly")
-# circle_box.current(0)
-# circle_box.grid()
-
 
 """
 events
