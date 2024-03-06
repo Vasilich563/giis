@@ -10,6 +10,10 @@ from methods import DDA
 from methods import Bresenham
 from methods import Wu
 
+from methods.ellipse import ellipse
+from methods.parabola import parabola
+from methods.hyperbola import hyperbola
+
 logger.add(sys.stderr, format="{time} {level} {message}", filter="my_module", level="INFO")
 logger.add("out.log")
 
@@ -42,13 +46,6 @@ debug_button = Button(debug_frame, text="Debug")
 debug_button.grid(row=0, column=1)
 
 """
-action radiobutton frame
-"""
-
-selected_option = StringVar(value="line")
-
-
-"""
 figure frame
 """
 
@@ -76,62 +73,120 @@ events
 draw = list()
 
 
+def choose_figure(event):
+    if len(draw) == 2:
+        draw.clear()
+
+    logger.debug(f"algorithm: {line_box.get()}")
+    logger.debug(event)
+
+    if len(draw) < 2:
+        print("x", event)
+        draw.append(event)
+
+    if len(draw) == 2:
+        s = line_box.get()
+        if s in ["DDA", "Bresenham", "Wu's line algorithm"]:
+            figure_click(event)
+        elif s == "Ellipse":
+            draw_ellipse(event)
+        elif s == "Circle":
+            draw_circle(event)
+        elif s == "Parabola":
+            draw_parabola(event)
+        elif s == "Hyperbola":
+            draw_hyperbola(event)
+
+    print(draw)
+
+
+def draw_ellipse(event):
+    r_x = abs(draw[0].x - draw[1].x) // 2
+    r_y = abs(draw[0].y - draw[1].y) // 2
+
+    x_c = min(draw[0].x, draw[1].x) + r_x
+    y_c = min(draw[0].y, draw[1].y) + r_y
+    pixels = ellipse(r_x, r_y, x_c, y_c)
+    print(pixels)
+    for i in range(len(pixels)):
+        canvas.create_rectangle(pixels[i][0], pixels[i][1], pixels[i][0] + 1, pixels[i][1] + 1)
+
+
+def draw_circle(event):
+    r_x = abs(draw[0].x - draw[1].x) // 2
+    r_y = abs(draw[0].y - draw[1].y) // 2
+    r_x = min(r_x, r_y)
+    r_y = r_x
+
+    x_c = min(draw[0].x, draw[1].x) + r_x
+    y_c = min(draw[0].y, draw[1].y) + r_y
+    pixels = ellipse(r_x, r_y, x_c, y_c)
+    print(pixels)
+    for i in range(len(pixels)):
+        canvas.create_rectangle(pixels[i][0], pixels[i][1], pixels[i][0] + 1, pixels[i][1] + 1)
+
+
+def draw_parabola(event):
+    x1, y1 = draw[0].x, draw[0].y
+    x2, y2 = draw[1].x, draw[1].y
+    pixels = parabola(x1, y1, x2, y2)
+    print(pixels)
+    for i in range(len(pixels)):
+        canvas.create_rectangle(pixels[i][0], pixels[i][1], pixels[i][0] + 1, pixels[i][1] + 1)
+
+def draw_hyperbola(event):
+    x1, y1 = draw[0].x, draw[0].y
+    x2, y2 = draw[1].x, draw[1].y
+    pixels = hyperbola(x1, y1, x2, y2)
+    print(pixels)
+    for i in range(len(pixels)):
+        canvas.create_rectangle(pixels[i][0], pixels[i][1], pixels[i][0] + 1, pixels[i][1] + 1)
+
+
 def figure_click(event):
     """
     Click to draw line.
     """
-    if len(draw) == 2:
-        draw.clear()
 
-    logger.debug(f"radio button option: {selected_option.get()}; line algorithm: {line_box.get()}")
-    logger.debug(event)
+    points = list()
+    if line_box.get() == "DDA":
+        points = DDA.DDA(draw[0], draw[1])
+    elif line_box.get() == "Bresenham":
+        points = Bresenham.Bresenham(draw[0], draw[1])
 
-    if len(draw) == 0:
-        draw.append(event)
-    else:
-        if draw[0].x == event.x and draw[0].y == event.y:
-            return
+    for i in points:
+        canvas.create_rectangle(i[0], i[1], i[0] + 1, i[1] + 1, fill="black")
 
-        draw.append(event)
-        points = list()
-        if line_box.get() == "DDA":
-            points = DDA.DDA(draw[0], draw[1])
-        elif line_box.get() == "Bresenham":
-            points = Bresenham.Bresenham(draw[0], draw[1])
+    if line_box.get() == "Wu's line algorithm":
+        points, additional, change_flag = Wu.Wu(draw[0], draw[1])
+        s1 = 1 if points[-1][0] > points[0][0] else -1
+        s2 = 1 if points[-1][1] > points[0][1] else -1
 
-        for i in points:
-            canvas.create_rectangle(i[0], i[1], i[0] + 1, i[1] + 1, fill="black")
+        k = (points[-1][1] - points[0][1]) / (points[-1][0] - points[0][0])
+        b = points[-1][1] - points[-1][0] * k
+        for i in range(len(points)):
+            if change_flag:
+                additional[i] = (
+                    additional[i][0] - 10 * s1, additional[i][1], abs(points[i][0] * k + b - points[i][1]))
+            else:
+                additional[i] = (
+                    additional[i][0], additional[i][1] - 10 * s2, abs(points[i][0] * k + b - points[i][1]))
 
-        if line_box.get() == "Wu's line algorithm":
-            points, additional, change_flag = Wu.Wu(draw[0], draw[1])
-            s1 = 1 if points[-1][0] > points[0][0] else -1
-            s2 = 1 if points[-1][1] > points[0][1] else -1
+        for i in range(len(points)):
+            color_1 = "#%02x%02x%02x" % (
+                abs(int(255 * additional[i][2])), abs(int(255 * additional[i][2])),
+                abs(int(255 * additional[i][2])))
 
-            k = (points[-1][1] - points[0][1]) / (points[-1][0] - points[0][0])
-            b = points[-1][1] - points[-1][0] * k
-            for i in range(len(points)):
-                if change_flag:
-                    additional[i] = (
-                        additional[i][0] - 10 * s1, additional[i][1], abs(points[i][0] * k + b - points[i][1]))
-                else:
-                    additional[i] = (
-                        additional[i][0], additional[i][1] - 10 * s2, abs(points[i][0] * k + b - points[i][1]))
+            color_2 = "#%02x%02x%02x" % (
+                abs(int(255 * (1 - additional[i][2]))), abs(int(255 * (1 - additional[i][2]))),
+                abs(int(255 * (1 - additional[i][2]))))
 
-            for i in range(len(points)):
-                color_1 = "#%02x%02x%02x" % (
-                    abs(int(255 * additional[i][2])), abs(int(255 * additional[i][2])),
-                    abs(int(255 * additional[i][2])))
+            print("color ", color_1, len(color_1))
+            canvas.create_rectangle(points[i][0], points[i][1], points[i][0] + 1, points[i][1] + 1, fill=color_1)
+            canvas.create_rectangle(additional[i][0], additional[i][1], additional[i][0] + 1, additional[i][1] + 1,
+                                    fill=color_2)
 
-                color_2 = "#%02x%02x%02x" % (
-                    abs(int(255 * (1 - additional[i][2]))), abs(int(255 * (1 - additional[i][2]))),
-                    abs(int(255 * (1 - additional[i][2]))))
-
-                print("color ", color_1, len(color_1))
-                canvas.create_rectangle(points[i][0], points[i][1], points[i][0] + 1, points[i][1] + 1, fill=color_1)
-                canvas.create_rectangle(additional[i][0], additional[i][1], additional[i][0] + 1, additional[i][1] + 1,
-                                        fill=color_2)
-
-        logger.debug("line is drown!")
+    logger.debug("line is drown!")
 
 
 def clear_canvas(event):
@@ -143,9 +198,136 @@ def clear_canvas(event):
     canvas.delete("all")
 
 
-def debug_line(event):
+def choose_debug(event):
+    s = line_box.get()
+
+    if s in ["DDA", "Bresenham", "Wu's line algorithm"]:
+        debug_line(event)
+    elif s == "Ellipse":
+        debug_ellipse(event)
+    elif s == "Circle":
+        debug_circle(event)
+    elif s == "Parabola":
+        debug_parabola(event)
+    elif s == "Hyperbola":
+        debug_hyperbola(event)
+
+
+def debug_ellipse(event):
     if len(draw) != 2:
         return
+
+    debug_window = Tk()
+    debug_window.title("Debug")
+    debug_window.geometry("600x600")
+
+    next_button = Button(debug_window, text="Next")
+    next_button.grid()
+
+    debug_canvas = Canvas(debug_window, width=500, height=500, background="white")
+    debug_canvas.grid()
+
+    r_x = abs(draw[0].x - draw[1].x) // 2
+    r_y = abs(draw[0].y - draw[1].y) // 2
+
+    x_c = min(draw[0].x, draw[1].x) + r_x
+    y_c = min(draw[0].y, draw[1].y) + r_y
+    points = ellipse(r_x, r_y, x_c, y_c)
+
+    def debug_draw(event):
+        debug_canvas.create_rectangle(points[0][0], points[0][1], points[0][0] + 1, points[0][1] + 1,
+                                      fill="black")
+        points.pop(0)
+
+    next_button.bind("<Button-1>", debug_draw)
+
+def debug_circle(event):
+    if len(draw) != 2:
+        return
+
+    debug_window = Tk()
+    debug_window.title("Debug")
+    debug_window.geometry("600x600")
+
+    next_button = Button(debug_window, text="Next")
+    next_button.grid()
+
+    debug_canvas = Canvas(debug_window, width=500, height=500, background="white")
+    debug_canvas.grid()
+
+    r_x = abs(draw[0].x - draw[1].x) // 2
+    r_y = abs(draw[0].y - draw[1].y) // 2
+    r_x = min(r_x, r_y)
+    r_y = r_x
+
+    x_c = min(draw[0].x, draw[1].x) + r_x
+    y_c = min(draw[0].y, draw[1].y) + r_y
+    points = ellipse(r_x, r_y, x_c, y_c)
+
+    def debug_draw(event):
+        debug_canvas.create_rectangle(points[0][0], points[0][1], points[0][0] + 1, points[0][1] + 1,
+                                      fill="black")
+        points.pop(0)
+
+    next_button.bind("<Button-1>", debug_draw)
+
+
+def debug_parabola(event):
+    if len(draw) != 2:
+        return
+
+    debug_window = Tk()
+    debug_window.title("Debug")
+    debug_window.geometry("600x600")
+
+    next_button = Button(debug_window, text="Next")
+    next_button.grid()
+
+    debug_canvas = Canvas(debug_window, width=500, height=500, background="white")
+    debug_canvas.grid()
+
+    x1, y1 = draw[0].x, draw[0].y
+    x2, y2 = draw[1].x, draw[1].y
+
+    points = parabola(x1, y1, x2, y2)
+
+    def debug_draw(event):
+        debug_canvas.create_rectangle(points[0][0], points[0][1], points[0][0] + 1, points[0][1] + 1,
+                                      fill="black")
+        points.pop(0)
+
+    next_button.bind("<Button-1>", debug_draw)
+
+
+def debug_hyperbola(event):
+    if len(draw) != 2:
+        return
+
+    debug_window = Tk()
+    debug_window.title("Debug")
+    debug_window.geometry("600x600")
+
+    next_button = Button(debug_window, text="Next")
+    next_button.grid()
+
+    debug_canvas = Canvas(debug_window, width=500, height=500, background="white")
+    debug_canvas.grid()
+
+    x1, y1 = draw[0].x, draw[0].y
+    x2, y2 = draw[1].x, draw[1].y
+
+    points = hyperbola(x1, y1, x2, y2)
+
+    def debug_draw(event):
+        debug_canvas.create_rectangle(points[0][0], points[0][1], points[0][0] + 1, points[0][1] + 1,
+                                      fill="black")
+        points.pop(0)
+
+    next_button.bind("<Button-1>", debug_draw)
+
+
+def debug_line(event):
+
 
     debug_window = Tk()
     debug_window.title("Debug")
@@ -245,9 +427,11 @@ def debug_line(event):
                 abs(int(255 * (1 - additional[0][2]))))
 
             print("color ", color_1, len(color_1))
-            debug_canvas.create_rectangle(points[0][0], points[0][1], points[0][0] + 10, points[0][1] + 10, fill=color_1)
-            debug_canvas.create_rectangle(additional[0][0], additional[0][1], additional[0][0] + 10, additional[0][1] + 10,
-                                    fill=color_2)
+            debug_canvas.create_rectangle(points[0][0], points[0][1], points[0][0] + 10, points[0][1] + 10,
+                                          fill=color_1)
+            debug_canvas.create_rectangle(additional[0][0], additional[0][1], additional[0][0] + 10,
+                                          additional[0][1] + 10,
+                                          fill=color_2)
             points.pop(0)
             additional.pop(0)
 
@@ -257,9 +441,9 @@ def debug_line(event):
 """
 event bindings
 """
-canvas.bind("<Button-1>", figure_click)
+canvas.bind("<Button-1>", choose_figure)
 clear_canvas_button.bind("<Button-1>", clear_canvas)
 
-debug_button.bind("<Button-1>", debug_line)
+debug_button.bind("<Button-1>", choose_debug)
 
 window.mainloop()

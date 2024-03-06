@@ -34,3 +34,531 @@
 2024-03-05 18:11:20.966 | DEBUG    | __main__:figure_click:86 - radio button option: line; line algorithm: Wu's line algorithm
 2024-03-05 18:11:20.967 | DEBUG    | __main__:figure_click:87 - <ButtonPress event num=1 x=601 y=306>
 2024-03-05 18:11:21.000 | DEBUG    | __main__:figure_click:134 - line is drown!
+2024-03-06 12:39:07.061 | DEBUG    | __main__:choose_figure:78 - algorithm: DDA
+2024-03-06 12:39:07.062 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=236 y=473>
+2024-03-06 12:39:07.514 | DEBUG    | __main__:choose_figure:78 - algorithm: DDA
+2024-03-06 12:39:07.515 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=594 y=196>
+2024-03-06 12:39:07.524 | DEBUG    | __main__:figure_click:149 - line is drown!
+2024-03-06 12:39:10.755 | DEBUG    | __main__:choose_figure:78 - algorithm: Bresenham
+2024-03-06 12:39:10.756 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=92 y=357>
+2024-03-06 12:39:11.188 | DEBUG    | __main__:choose_figure:78 - algorithm: Bresenham
+2024-03-06 12:39:11.188 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=461 y=415>
+2024-03-06 12:39:11.192 | DEBUG    | __main__:figure_click:149 - line is drown!
+2024-03-06 12:39:13.720 | DEBUG    | __main__:choose_figure:78 - algorithm: Wu's line algorithm
+2024-03-06 12:39:13.720 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=121 y=347>
+2024-03-06 12:39:14.140 | DEBUG    | __main__:choose_figure:78 - algorithm: Wu's line algorithm
+2024-03-06 12:39:14.141 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=177 y=186>
+2024-03-06 12:39:14.151 | DEBUG    | __main__:figure_click:149 - line is drown!
+2024-03-06 12:39:17.366 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:39:17.366 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=156 y=123>
+2024-03-06 12:39:17.794 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:39:17.795 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=352 y=231>
+2024-03-06 12:39:19.046 | DEBUG    | __main__:clear_canvas:157 - now canvas is clear
+2024-03-06 12:39:19.480 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:39:19.481 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=113 y=94>
+2024-03-06 12:39:19.816 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:39:19.817 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=327 y=251>
+2024-03-06 12:39:23.388 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:23.389 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=162 y=104>
+2024-03-06 12:39:23.780 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:23.781 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=396 y=291>
+2024-03-06 12:39:25.886 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:25.887 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=395 y=388>
+2024-03-06 12:39:26.781 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:26.781 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=416 y=10>
+2024-03-06 12:39:27.586 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:27.587 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=587 y=366>
+2024-03-06 12:39:28.082 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:28.082 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=705 y=474>
+2024-03-06 12:39:29.080 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:29.081 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=465 y=60>
+2024-03-06 12:39:29.907 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:29.908 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=749 y=268>
+2024-03-06 12:39:31.339 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:31.340 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=71 y=352>
+2024-03-06 12:39:32.282 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:32.282 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=287 y=478>
+2024-03-06 12:39:34.335 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:34.336 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=287 y=478>
+2024-03-06 12:39:34.851 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:34.852 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=270 y=319>
+2024-03-06 12:39:35.644 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:35.645 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=362 y=352>
+2024-03-06 12:39:36.463 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:36.464 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=365 y=434>
+2024-03-06 12:39:37.228 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:37.228 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=390 y=438>
+2024-03-06 12:39:37.696 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:37.696 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=445 y=409>
+2024-03-06 12:39:38.357 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:38.358 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=434 y=439>
+2024-03-06 12:39:38.701 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:38.702 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=435 y=437>
+2024-03-06 12:39:39.404 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:39.405 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=444 y=451>
+2024-03-06 12:39:39.656 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:39.656 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=448 y=449>
+2024-03-06 12:39:40.450 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:40.451 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=534 y=351>
+2024-03-06 12:39:40.643 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:40.644 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=537 y=356>
+2024-03-06 12:39:41.580 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:41.581 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=537 y=312>
+2024-03-06 12:39:41.904 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:41.904 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=676 y=329>
+2024-03-06 12:39:42.545 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:42.545 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=697 y=331>
+2024-03-06 12:39:42.723 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:42.724 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=697 y=331>
+2024-03-06 12:39:43.295 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:43.296 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=702 y=332>
+2024-03-06 12:39:43.480 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:43.480 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=702 y=333>
+2024-03-06 12:39:43.936 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:43.937 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=702 y=333>
+2024-03-06 12:39:44.122 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:44.123 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=702 y=333>
+2024-03-06 12:39:44.907 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:44.908 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=707 y=369>
+2024-03-06 12:39:45.100 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:39:45.101 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=707 y=369>
+2024-03-06 12:39:51.389 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:39:51.390 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=44 y=149>
+2024-03-06 12:39:51.768 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:39:51.769 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=243 y=102>
+2024-03-06 12:39:52.718 | DEBUG    | __main__:clear_canvas:157 - now canvas is clear
+2024-03-06 12:40:13.427 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:40:13.428 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=59 y=210>
+2024-03-06 12:40:13.902 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:40:13.903 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=458 y=239>
+2024-03-06 12:40:25.398 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:40:25.399 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=386 y=358>
+2024-03-06 12:40:25.970 | DEBUG    | __main__:choose_figure:78 - algorithm: Ellipse
+2024-03-06 12:40:25.971 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=416 y=393>
+2024-03-06 12:45:08.326 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:08.327 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=85 y=100>
+2024-03-06 12:45:08.815 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:08.816 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=581 y=195>
+2024-03-06 12:45:10.580 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:10.581 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=245 y=107>
+2024-03-06 12:45:11.540 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:11.540 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=742 y=249>
+2024-03-06 12:45:12.388 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:12.389 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=378 y=28>
+2024-03-06 12:45:13.753 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:13.754 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=762 y=168>
+2024-03-06 12:45:14.995 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:14.996 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=435 y=366>
+2024-03-06 12:45:16.050 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:16.050 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=755 y=404>
+2024-03-06 12:45:21.559 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:21.560 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=572 y=260>
+2024-03-06 12:45:21.828 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:21.828 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=642 y=308>
+2024-03-06 12:45:23.290 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:23.291 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=574 y=112>
+2024-03-06 12:45:23.773 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:23.773 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=625 y=172>
+2024-03-06 12:45:29.316 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:29.316 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=122 y=377>
+2024-03-06 12:45:41.566 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:45:41.567 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=605 y=208>
+2024-03-06 12:46:15.482 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:15.483 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=214 y=42>
+2024-03-06 12:46:16.518 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:16.518 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=674 y=430>
+2024-03-06 12:46:18.737 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:18.737 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=673 y=429>
+2024-03-06 12:46:19.751 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:19.752 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=686 y=314>
+2024-03-06 12:46:21.979 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:21.979 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=623 y=278>
+2024-03-06 12:46:23.268 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:23.269 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=744 y=208>
+2024-03-06 12:46:24.606 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:24.607 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=649 y=184>
+2024-03-06 12:46:25.144 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:25.145 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=711 y=85>
+2024-03-06 12:46:26.826 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:26.827 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=711 y=87>
+2024-03-06 12:46:27.378 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 12:46:27.379 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=784 y=228>
+2024-03-06 12:46:28.716 | DEBUG    | __main__:clear_canvas:172 - now canvas is clear
+2024-03-06 12:46:31.028 | DEBUG    | __main__:choose_figure:78 - algorithm: Parabola
+2024-03-06 12:46:31.028 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=41 y=260>
+2024-03-06 12:46:31.476 | DEBUG    | __main__:choose_figure:78 - algorithm: Parabola
+2024-03-06 12:46:31.477 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=407 y=219>
+2024-03-06 12:46:35.346 | DEBUG    | __main__:choose_figure:78 - algorithm: Hyperbola
+2024-03-06 12:46:35.347 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=60 y=285>
+2024-03-06 12:46:35.801 | DEBUG    | __main__:choose_figure:78 - algorithm: Hyperbola
+2024-03-06 12:46:35.802 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=464 y=294>
+2024-03-06 12:46:37.539 | DEBUG    | __main__:clear_canvas:172 - now canvas is clear
+2024-03-06 13:53:08.298 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 13:53:08.300 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=171 y=330>
+2024-03-06 13:53:08.656 | DEBUG    | __main__:choose_figure:78 - algorithm: Circle
+2024-03-06 13:53:08.656 | DEBUG    | __main__:choose_figure:79 - <ButtonPress event num=1 x=491 y=257>
+2024-03-06 13:56:03.120 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:03.121 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=24 y=238>
+2024-03-06 13:56:03.520 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:03.520 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=386 y=378>
+2024-03-06 13:56:05.134 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:05.134 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=231 y=121>
+2024-03-06 13:56:05.589 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:05.590 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=522 y=324>
+2024-03-06 13:56:07.686 | DEBUG    | __main__:clear_canvas:184 - now canvas is clear
+2024-03-06 13:56:08.175 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:08.176 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=243 y=327>
+2024-03-06 13:56:08.568 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:08.568 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=532 y=226>
+2024-03-06 13:56:30.170 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 13:56:30.171 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=317 y=356>
+2024-03-06 13:56:32.653 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 13:56:32.654 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=308 y=379>
+2024-03-06 13:56:32.656 | DEBUG    | __main__:figure_click:178 - line is drown!
+2024-03-06 13:56:35.288 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 13:56:35.771 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:35.771 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=233 y=295>
+2024-03-06 13:56:36.216 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:36.216 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=547 y=398>
+2024-03-06 13:56:37.357 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:37.358 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=259 y=171>
+2024-03-06 13:56:37.888 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:37.889 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=95 y=385>
+2024-03-06 13:56:38.916 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:38.917 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=410 y=154>
+2024-03-06 13:56:39.302 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:39.303 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=630 y=369>
+2024-03-06 13:56:40.323 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:40.324 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=482 y=64>
+2024-03-06 13:56:40.695 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:40.696 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=141 y=201>
+2024-03-06 13:56:42.027 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:42.027 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=539 y=334>
+2024-03-06 13:56:42.414 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:42.414 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=378 y=484>
+2024-03-06 13:56:43.373 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:43.374 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=318 y=135>
+2024-03-06 13:56:43.752 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:43.753 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=603 y=276>
+2024-03-06 13:56:44.318 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:44.319 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=147 y=140>
+2024-03-06 13:56:44.656 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:44.656 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=316 y=352>
+2024-03-06 13:56:45.663 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:45.664 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=646 y=163>
+2024-03-06 13:56:46.035 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:46.036 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=341 y=344>
+2024-03-06 13:56:46.849 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:46.850 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=418 y=124>
+2024-03-06 13:56:47.194 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:47.195 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=130 y=332>
+2024-03-06 13:56:47.905 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:47.905 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=506 y=70>
+2024-03-06 13:56:48.269 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:48.270 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=707 y=339>
+2024-03-06 13:56:50.822 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:50.823 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=555 y=319>
+2024-03-06 13:56:51.243 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:51.243 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=322 y=423>
+2024-03-06 13:56:52.208 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:52.209 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=93 y=381>
+2024-03-06 13:56:52.483 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:52.483 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=41 y=450>
+2024-03-06 13:56:53.181 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:53.182 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=202 y=401>
+2024-03-06 13:56:53.403 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:53.403 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=148 y=453>
+2024-03-06 13:56:53.974 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:53.975 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=246 y=400>
+2024-03-06 13:56:54.277 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:54.278 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=209 y=452>
+2024-03-06 13:56:54.885 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:54.885 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=335 y=411>
+2024-03-06 13:56:55.174 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:55.175 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=308 y=453>
+2024-03-06 13:56:55.657 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:55.657 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=378 y=404>
+2024-03-06 13:56:55.911 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:55.912 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=354 y=447>
+2024-03-06 13:56:56.346 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:56.347 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=392 y=393>
+2024-03-06 13:56:56.614 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:56.615 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=372 y=447>
+2024-03-06 13:56:56.960 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:56.961 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=413 y=380>
+2024-03-06 13:56:57.215 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:57.215 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=395 y=443>
+2024-03-06 13:56:57.547 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:57.548 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=458 y=336>
+2024-03-06 13:56:57.814 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:57.815 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=440 y=418>
+2024-03-06 13:56:58.153 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:58.154 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=474 y=301>
+2024-03-06 13:56:58.410 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:58.410 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=388 y=395>
+2024-03-06 13:56:59.996 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:56:59.997 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=54 y=150>
+2024-03-06 13:57:00.858 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:57:00.859 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=446 y=411>
+2024-03-06 13:57:01.886 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:57:01.886 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=213 y=416>
+2024-03-06 13:57:03.003 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:57:03.004 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=508 y=25>
+2024-03-06 13:57:04.405 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:57:04.406 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=641 y=385>
+2024-03-06 13:57:05.619 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:57:05.619 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=142 y=27>
+2024-03-06 13:57:07.045 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 13:58:34.509 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:34.510 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=141 y=362>
+2024-03-06 13:58:35.565 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:35.565 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=405 y=54>
+2024-03-06 13:58:36.813 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:36.814 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=493 y=411>
+2024-03-06 13:58:37.186 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:37.186 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=633 y=221>
+2024-03-06 13:58:38.123 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:38.124 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=380 y=421>
+2024-03-06 13:58:38.510 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:38.510 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=558 y=159>
+2024-03-06 13:58:39.530 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:39.531 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=602 y=459>
+2024-03-06 13:58:39.972 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:58:39.973 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=705 y=242>
+2024-03-06 13:58:41.179 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 13:59:37.499 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 13:59:37.500 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=539 y=453>
+2024-03-06 13:59:37.900 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 13:59:37.901 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=628 y=357>
+2024-03-06 13:59:37.904 | DEBUG    | __main__:figure_click:178 - line is drown!
+2024-03-06 13:59:38.776 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 13:59:38.777 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=315 y=419>
+2024-03-06 13:59:40.494 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 13:59:40.495 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=299 y=383>
+2024-03-06 13:59:40.497 | DEBUG    | __main__:figure_click:178 - line is drown!
+2024-03-06 13:59:42.937 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 13:59:43.807 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:43.807 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=403 y=366>
+2024-03-06 13:59:44.186 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:44.187 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=493 y=210>
+2024-03-06 13:59:45.525 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:45.525 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=529 y=412>
+2024-03-06 13:59:46.118 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:46.119 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=649 y=165>
+2024-03-06 13:59:47.132 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:47.133 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=478 y=434>
+2024-03-06 13:59:47.539 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:47.540 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=165 y=248>
+2024-03-06 13:59:52.632 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 13:59:53.453 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:53.454 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=392 y=424>
+2024-03-06 13:59:54.254 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 13:59:54.254 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=691 y=55>
+2024-03-06 14:00:37.058 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:00:37.059 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=413 y=386>
+2024-03-06 14:00:37.590 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:00:37.590 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=555 y=140>
+2024-03-06 14:00:37.592 | DEBUG    | __main__:figure_click:178 - line is drown!
+2024-03-06 14:00:39.977 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 14:00:40.432 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:00:40.433 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=407 y=349>
+2024-03-06 14:00:40.866 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:00:40.867 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=592 y=150>
+2024-03-06 14:00:43.508 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:00:43.508 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=623 y=269>
+2024-03-06 14:00:43.915 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:00:43.916 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=722 y=87>
+2024-03-06 14:00:55.303 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:00:55.304 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=525 y=88>
+2024-03-06 14:00:58.035 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:00:58.036 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=723 y=88>
+2024-03-06 14:00:58.042 | DEBUG    | __main__:figure_click:178 - line is drown!
+2024-03-06 14:02:15.354 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:02:15.355 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=399 y=278>
+2024-03-06 14:02:15.871 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:02:15.871 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=255 y=414>
+2024-03-06 14:02:15.875 | DEBUG    | __main__:figure_click:178 - line is drown!
+2024-03-06 14:02:18.685 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 14:02:19.444 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:19.444 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=481 y=207>
+2024-03-06 14:02:19.761 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:19.761 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=362 y=311>
+2024-03-06 14:02:22.533 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:22.534 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=478 y=100>
+2024-03-06 14:02:22.912 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:22.913 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=271 y=63>
+2024-03-06 14:02:24.443 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:24.444 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=657 y=341>
+2024-03-06 14:02:24.905 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:24.906 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=445 y=97>
+2024-03-06 14:02:26.720 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:26.721 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=362 y=423>
+2024-03-06 14:02:27.134 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:27.135 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=707 y=144>
+2024-03-06 14:02:28.369 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:28.370 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=692 y=417>
+2024-03-06 14:02:28.934 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:02:28.935 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=148 y=150>
+2024-03-06 14:02:56.596 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:02:56.597 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=485 y=371>
+2024-03-06 14:02:56.982 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:02:56.983 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=262 y=339>
+2024-03-06 14:02:56.989 | DEBUG    | __main__:figure_click:178 - line is drown!
+2024-03-06 14:03:02.113 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 14:03:02.499 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:03:02.500 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=438 y=368>
+2024-03-06 14:03:03.003 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:03:03.004 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=596 y=287>
+2024-03-06 14:03:04.347 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 14:03:04.768 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:03:04.769 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=419 y=308>
+2024-03-06 14:03:05.113 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:03:05.114 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=227 y=217>
+2024-03-06 14:03:14.706 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 14:05:59.820 | DEBUG    | __main__:choose_figure:79 - algorithm: DDA
+2024-03-06 14:05:59.820 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=509 y=396>
+2024-03-06 14:06:00.937 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 14:06:03.247 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:03.248 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=380 y=290>
+2024-03-06 14:06:03.633 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:03.634 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=210 y=181>
+2024-03-06 14:06:25.118 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:25.119 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=406 y=421>
+2024-03-06 14:06:25.518 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:25.519 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=157 y=236>
+2024-03-06 14:06:29.023 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:29.023 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=423 y=293>
+2024-03-06 14:06:29.408 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:29.409 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=259 y=439>
+2024-03-06 14:06:30.305 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:30.306 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=345 y=159>
+2024-03-06 14:06:30.615 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:30.615 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=655 y=143>
+2024-03-06 14:06:32.092 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:32.093 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=250 y=82>
+2024-03-06 14:06:34.180 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:34.181 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=458 y=58>
+2024-03-06 14:06:35.078 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:35.078 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=472 y=379>
+2024-03-06 14:06:35.450 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:35.451 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=505 y=44>
+2024-03-06 14:06:36.464 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:36.465 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=670 y=245>
+2024-03-06 14:06:36.836 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:06:36.837 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=558 y=396>
+2024-03-06 14:06:37.891 | DEBUG    | __main__:clear_canvas:186 - now canvas is clear
+2024-03-06 14:07:59.992 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:07:59.992 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=270 y=410>
+2024-03-06 14:08:00.364 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:08:00.364 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=413 y=96>
+2024-03-06 14:08:31.872 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:08:31.872 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=377 y=364>
+2024-03-06 14:08:32.230 | DEBUG    | __main__:choose_figure:79 - algorithm: Parabola
+2024-03-06 14:08:32.231 | DEBUG    | __main__:choose_figure:80 - <ButtonPress event num=1 x=480 y=191>
+2024-03-06 14:23:21.252 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:23:21.252 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=158 y=190>
+2024-03-06 14:23:21.583 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:23:21.583 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=469 y=373>
+2024-03-06 14:23:23.031 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:23:23.032 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=232 y=395>
+2024-03-06 14:23:23.362 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:23:23.363 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=302 y=281>
+2024-03-06 14:29:59.945 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:29:59.946 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=166 y=337>
+2024-03-06 14:30:00.317 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:00.318 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=650 y=418>
+2024-03-06 14:30:01.849 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:30:02.421 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:02.422 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=244 y=264>
+2024-03-06 14:30:02.773 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:02.774 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=357 y=374>
+2024-03-06 14:30:10.369 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:10.370 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=622 y=357>
+2024-03-06 14:30:10.755 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:10.756 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=497 y=155>
+2024-03-06 14:30:12.066 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:12.067 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=162 y=109>
+2024-03-06 14:30:12.472 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:12.473 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=162 y=307>
+2024-03-06 14:30:13.756 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:13.757 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=122 y=377>
+2024-03-06 14:30:14.212 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:14.212 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=276 y=74>
+2024-03-06 14:30:15.357 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:15.357 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=454 y=452>
+2024-03-06 14:30:15.688 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:15.689 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=482 y=248>
+2024-03-06 14:30:17.992 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:30:35.299 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:35.299 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=153 y=112>
+2024-03-06 14:30:35.650 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:35.651 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=245 y=258>
+2024-03-06 14:30:36.858 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:30:37.306 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:37.307 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=275 y=354>
+2024-03-06 14:30:37.637 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:37.638 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=161 y=223>
+2024-03-06 14:30:39.238 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:39.238 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=430 y=172>
+2024-03-06 14:30:39.658 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:39.659 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=668 y=183>
+2024-03-06 14:30:40.424 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:40.425 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=290 y=359>
+2024-03-06 14:30:40.762 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:30:40.763 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=438 y=447>
+2024-03-06 14:30:46.660 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:32:38.391 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:38.392 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=85 y=94>
+2024-03-06 14:32:38.832 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:38.833 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=375 y=246>
+2024-03-06 14:32:44.993 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:32:45.593 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:45.594 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=116 y=99>
+2024-03-06 14:32:46.083 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:46.084 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=312 y=224>
+2024-03-06 14:32:53.003 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:32:53.534 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:53.535 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=337 y=267>
+2024-03-06 14:32:54.003 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:54.004 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=388 y=110>
+2024-03-06 14:32:56.632 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:32:57.067 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:57.068 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=385 y=290>
+2024-03-06 14:32:57.743 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:32:57.744 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=478 y=129>
+2024-03-06 14:33:01.158 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:33:01.586 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:01.587 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=255 y=320>
+2024-03-06 14:33:01.986 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:01.987 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=337 y=214>
+2024-03-06 14:33:05.271 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:05.272 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=336 y=266>
+2024-03-06 14:33:06.009 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:06.010 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=336 y=207>
+2024-03-06 14:33:07.582 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:33:08.031 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:08.032 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=453 y=343>
+2024-03-06 14:33:08.383 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:08.384 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=464 y=228>
+2024-03-06 14:33:09.666 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:09.667 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=643 y=441>
+2024-03-06 14:33:10.335 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:10.336 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=318 y=387>
+2024-03-06 14:33:12.592 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:33:13.137 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:13.138 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=211 y=143>
+2024-03-06 14:33:13.655 | DEBUG    | __main__:choose_figure:80 - algorithm: Hyperbola
+2024-03-06 14:33:13.655 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=394 y=267>
+2024-03-06 14:33:26.103 | DEBUG    | __main__:clear_canvas:197 - now canvas is clear
+2024-03-06 14:35:24.478 | DEBUG    | __main__:choose_figure:80 - algorithm: Circle
+2024-03-06 14:35:24.479 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=170 y=76>
+2024-03-06 14:35:25.154 | DEBUG    | __main__:choose_figure:80 - algorithm: Circle
+2024-03-06 14:35:25.155 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=265 y=220>
+2024-03-06 14:35:27.396 | DEBUG    | __main__:choose_figure:80 - algorithm: Circle
+2024-03-06 14:35:27.396 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=365 y=83>
+2024-03-06 14:35:28.133 | DEBUG    | __main__:choose_figure:80 - algorithm: Circle
+2024-03-06 14:35:28.134 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=570 y=184>
+2024-03-06 14:39:04.727 | DEBUG    | __main__:choose_figure:80 - algorithm: Circle
+2024-03-06 14:39:04.728 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=403 y=266>
+2024-03-06 14:39:05.190 | DEBUG    | __main__:choose_figure:80 - algorithm: Circle
+2024-03-06 14:39:05.190 | DEBUG    | __main__:choose_figure:81 - <ButtonPress event num=1 x=431 y=292>
