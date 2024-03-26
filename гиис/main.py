@@ -14,6 +14,10 @@ from methods.ellipse import ellipse
 from methods.parabola import parabola
 from methods.hyperbola import hyperbola
 
+from methods.b_spline import b_spline
+from methods.bezye import bezye
+from methods.ermit import ermit
+
 logger.add(sys.stderr, format="{time} {level} {message}", filter="my_module", level="INFO")
 logger.add("out.log")
 
@@ -22,7 +26,7 @@ window layout
 """
 window = Tk()
 window.title("Graphical Editor")
-window.geometry("800x660")
+window.geometry("800x700")
 window.configure(bg='yellow')
 
 buttons_frame = Frame(window)
@@ -61,10 +65,34 @@ line_frame.grid(row=0, column=0, padx=2, pady=2)
 line_label = Label(line_frame, text="Figures", font="Arial")
 line_label.grid()
 
-algorithms = ["DDA", "Bresenham", "Wu's line algorithm", "Circle", "Ellipse", "Parabola", "Hyperbola"]
+algorithms = ["DDA", "Bresenham", "Wu's line algorithm", "Circle", "Ellipse", "Parabola", "Hyperbola", "B-spline",
+              "Ermit", "Bezye"]
 line_box = ttk.Combobox(line_frame, values=algorithms, state="readonly", width=100)
 line_box.current(0)
 line_box.grid()
+
+vector_frame = Frame(window, pady=5)
+vector_frame.grid(row=3, column=0)
+
+x_1_label = Label(vector_frame, text="x_1")
+x_1_label.grid(row=0, column=0)
+x_1_text = Text(vector_frame, height=1, width=4)
+x_1_text.grid(row=0, column=1)
+
+y_1_label = Label(vector_frame, text="y_1")
+y_1_label.grid(row=0, column=2)
+y_1_text = Text(vector_frame, height=1, width=4)
+y_1_text.grid(row=0, column=3)
+
+x_2_label = Label(vector_frame, text="x_2")
+x_2_label.grid(row=1, column=0)
+x_2_text = Text(vector_frame, height=1, width=4)
+x_2_text.grid(row=1, column=1)
+
+y_2_label = Label(vector_frame, text="y_2")
+y_2_label.grid(row=1, column=2)
+y_2_text = Text(vector_frame, height=1, width=4)
+y_2_text.grid(row=1, column=3)
 
 """
 events
@@ -96,8 +124,28 @@ def choose_figure(event):
             draw_parabola(event)
         elif s == "Hyperbola":
             draw_hyperbola(event)
+        elif s in ["B-spline", "Ermit", "Bezye"]:
+            draw_curva(event)
 
     print(draw)
+
+
+def draw_curva(event):
+    start_point = (draw[0].x, draw[0].y)
+    input_x1_y1 = (int(x_1_text.get("1.0", "end-1c")), int(y_1_text.get("1.0", "end-1c")))
+    input_x2_y2 = (int(x_2_text.get("1.0", "end-1c")), int(y_2_text.get("1.0", "end-1c")))
+    endpoint = (draw[1].x, draw[1].y)
+    print(start_point, input_x1_y1, input_x2_y2, endpoint)
+    if line_box.get() == "B-spline":
+        points = b_spline(start_point, input_x1_y1, input_x2_y2, endpoint, 1001)
+    elif line_box.get() == "Bezye":
+        points = bezye(start_point, input_x1_y1, input_x2_y2, endpoint, 1001)
+    elif line_box.get() == "Ermit":
+        # input_x1_y1 is r0, input_x2_y2 is r1
+        points = ermit(p0=start_point, p1=endpoint, r0=input_x1_y1, r1=input_x2_y2, points_amount=1001)
+
+    for i in range(len(points)):
+        canvas.create_rectangle(points[i][0], points[i][1], points[i][0] + 1, points[i][1] + 1)
 
 
 def draw_ellipse(event):
@@ -133,6 +181,7 @@ def draw_parabola(event):
     print(pixels)
     for i in range(len(pixels)):
         canvas.create_rectangle(pixels[i][0], pixels[i][1], pixels[i][0] + 1, pixels[i][1] + 1)
+
 
 def draw_hyperbola(event):
     x1, y1 = draw[0].x, draw[0].y
@@ -211,6 +260,12 @@ def choose_debug(event):
         debug_parabola(event)
     elif s == "Hyperbola":
         debug_hyperbola(event)
+    elif s == "B-spline":
+        debug_curva(event, "B-spline")
+    elif s == "Bezye":
+        debug_curva(event, "Bezye")
+    elif s == "Ermit":
+        debug_curva(event, "Ermit")
 
 
 def debug_ellipse(event):
@@ -240,6 +295,7 @@ def debug_ellipse(event):
         points.pop(0)
 
     next_button.bind("<Button-1>", debug_draw)
+
 
 def debug_circle(event):
     if len(draw) != 2:
@@ -327,8 +383,6 @@ def debug_hyperbola(event):
 
 
 def debug_line(event):
-
-
     debug_window = Tk()
     debug_window.title("Debug")
     debug_window.geometry("600x600")
@@ -434,6 +488,40 @@ def debug_line(event):
                                           fill=color_2)
             points.pop(0)
             additional.pop(0)
+
+    next_button.bind("<Button-1>", debug_draw)
+
+
+def debug_curva(event, linebox_value):
+    if len(draw) != 2:
+        return
+
+    debug_window = Tk()
+    debug_window.title("Debug")
+    debug_window.geometry("600x600")
+
+    next_button = Button(debug_window, text="Next")
+    next_button.grid()
+
+    debug_canvas = Canvas(debug_window, width=500, height=500, background="white")
+    debug_canvas.grid()
+
+    p0 = (draw[0].x, draw[0].y)
+    p1 = (int(x_1_text.get("1.0", "end-1c")), int(y_1_text.get("1.0", "end-1c")))
+    p2 = (int(x_2_text.get("1.0", "end-1c")), int(y_2_text.get("1.0", "end-1c")))
+    p3 = (draw[1].x, draw[1].y)
+    print(p0, p1, p2, p3)
+    if linebox_value == "B-spline":
+        points = b_spline(p0, p1, p2, p3, 1000)
+    elif linebox_value == "Bezye":
+        points = bezye(p0, p1, p2, p3, 1000)
+    elif linebox_value == "Ermit":
+        points = ermit(p0, p1, p2, p3, 1000)
+
+    def debug_draw(event):
+        debug_canvas.create_rectangle(points[0][0], points[0][1], points[0][0] + 1, points[0][1] + 1,
+                                      fill="black")
+        points.pop(0)
 
     next_button.bind("<Button-1>", debug_draw)
 

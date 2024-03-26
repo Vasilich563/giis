@@ -1,23 +1,42 @@
 import numpy as np
 
 
-def bezier(event_1, event_2, p0, p1, num_samples=1000):
-    points = [(event_1.x, event_1.y), p0, p1, (event_2.x, event_2.y)]
+def bezye(p0, p1, p2, p3, points_amount):
+    Mb = np.array(
+        [
+            [-1, 3, -3, 1],
+            [3, -6, 3, 0],
+            [-3, 3, 0, 0],
+            [1, 0, 0, 0]
+        ]
+    )  # Матрица Безье
 
-    t_values = np.linspace(0, 1, num_samples)
-    n = len(points) - 1
-    curve_points = []
+    Gbx = np.array(
+        [
+            p0[0], p1[0], p2[0], p3[0]
+        ]
+    ).reshape(4, 1)
+    Cx = np.matmul(Mb, Gbx)  # В общем виде (T * Mb) * Gbx == T * (Mb * Gbx)
 
-    for t in t_values:
-        t2 = t * t
-        t3 = t2 * t
-        mt = 1 - t
-        mt2 = mt * mt
-        mt3 = mt2 * mt
+    Gby = np.array(
+        [
+            p0[1], p1[1], p2[1], p3[1]
+        ]
+    ).reshape(4, 1)
+    Cy = np.matmul(Mb, Gby)  # В общем виде (T * Mb) * Gby == T * (Mb * Gby)
 
-        x = mt3 * points[0][0] + 3 * mt2 * t * points[1][0] + 3 * mt * t2 * points[2][0] + t3 * points[3][0]
-        y = mt3 * points[0][1] + 3 * mt2 * t * points[1][1] + 3 * mt * t2 * points[2][1] + t3 * points[3][1]
+    points = []
+    for intermediate_point in range(points_amount):
+        t = intermediate_point / (points_amount - 1)
+        T = np.array([pow(t, 3), pow(t, 2), t, 1])
 
-        curve_points.append([x, y])
+        x = np.matmul(T, Cx)[0]  # Матрица 1х1
+        y = np.matmul(T, Cy)[0]  # Матрица 1х1
 
-    return curve_points
+        points.append((x, y))
+    return points
+
+
+if __name__ == "__main__":
+    points = bezye((0, 5), (5, 0), (6, 6), (3, 4), 11)
+    print(points)

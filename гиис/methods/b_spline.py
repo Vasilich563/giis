@@ -16,8 +16,8 @@ def param0(prev_p, current_p, next_p):
 
 def b_spline(p0, p1, p2, p3, points_amount):
     points = []
-    main_points = (p0, p1, p2, p3)
-    for i in range(1, len(main_points) - 2):
+    main_points = (p0, p0, p1, p2, p3, p3, p3)  # расширение p-1 = p0, p3 + 1 = p3, p3 + 2 = p3
+    for i in range(1, 4):
         for intermediate_point in range(points_amount):
             t = intermediate_point / (points_amount - 1)
     
