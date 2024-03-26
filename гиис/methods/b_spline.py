@@ -1,5 +1,5 @@
 def param3(prev_p, current_p, next_p, next_next_p):
-    return (-prev_p + 3 * current_p - 3 * next_p[0] + next_next_p[0]) / 6.
+    return (-prev_p + 3 * current_p - 3 * next_p + next_next_p) / 6.
 
 
 def param2(prev_p, current_p, next_p):
