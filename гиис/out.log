@@ -1731,3 +1731,35 @@
 2024-03-27 00:08:51.409 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
 2024-03-27 00:08:51.409 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=577 y=94>
 2024-03-27 00:10:43.971 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 00:49:31.052 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 00:49:31.052 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=103 y=384>
+2024-03-27 00:49:31.472 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 00:49:31.473 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=539 y=276>
+2024-03-27 00:59:55.039 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 00:59:55.039 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=53 y=371>
+2024-03-27 00:59:55.535 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 00:59:55.535 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=604 y=92>
+2024-03-27 00:59:58.181 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 00:59:58.181 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=685 y=323>
+2024-03-27 00:59:58.574 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 00:59:58.574 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=338 y=218>
+2024-03-27 01:00:21.917 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:21.918 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=149 y=269>
+2024-03-27 01:00:30.253 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:30.254 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=546 y=52>
+2024-03-27 01:00:32.301 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:32.302 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=126 y=399>
+2024-03-27 01:00:33.866 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:33.867 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=555 y=158>
+2024-03-27 01:00:36.948 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:36.949 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=637 y=333>
+2024-03-27 01:00:38.286 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:38.287 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=431 y=438>
+2024-03-27 01:00:41.817 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:41.817 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=74 y=88>
+2024-03-27 01:00:45.347 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:45.347 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=725 y=126>
+2024-03-27 01:00:50.180 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:50.180 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=78 y=87>
+2024-03-27 01:00:51.028 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
+2024-03-27 01:00:51.028 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=48 y=329>

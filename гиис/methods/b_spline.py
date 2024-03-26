@@ -1,38 +1,39 @@
-def param3(prev_p, current_p, next_p, next_next_p):
-    return (-prev_p + 3 * current_p - 3 * next_p + next_next_p) / 6.
-
-
-def param2(prev_p, current_p, next_p):
-    return (prev_p - 2 * current_p + next_p) / 2.
-
-
-def param1(prev_p, next_p):
-    return (-prev_p + next_p) / 2.
-
-
-def param0(prev_p, current_p, next_p):
-    return (prev_p + 4 * current_p + next_p) / 6.
+import numpy as np
 
 
 def b_spline(p0, p1, p2, p3, points_amount):
+    main_points = (p0, p0, p1, p2, p3, p3)  # расширение p-1 = p0, p3 + 1 = p3, p3 + 2 = p3
+    Ms = np.array(
+        [
+            [-1, 3, -3, 1],
+            [3, -6, 3, 0],
+            [-3, 0, 3, 0],
+            [1, 4, 1, 0]
+        ]
+    ) / 6.  # Коэффициенты в методе б-сплайн
+
     points = []
-    main_points = (p0, p0, p1, p2, p3, p3, p3)  # расширение p-1 = p0, p3 + 1 = p3, p3 + 2 = p3
-    for i in range(1, 4):
+    for i in range(1, 4):  # 1 <= i <= n - 1
+        Gsx = np.array(
+            [
+                main_points[i - 1][0], main_points[i][0], main_points[i + 1][0], main_points[i + 2][0]
+            ]
+        ).reshape(4, 1)  # Точки текущего сегмента по оси x
+        Cx = np.matmul(Ms, Gsx)  # В общем виде (T * Ms) * Gsx == T * (Ms * Gsx)
+
+        Gsy = np.array(
+            [
+                main_points[i - 1][1], main_points[i][1], main_points[i + 1][1], main_points[i + 2][1]
+            ]
+        ).reshape(4, 1)  # Точки текущего сегмента по оси y
+        Cy = np.matmul(Ms, Gsy)  # В общем виде (T * Ms) * Gsy == T * (Ms * Gsy)
+
         for intermediate_point in range(points_amount):
             t = intermediate_point / (points_amount - 1)
+            T = np.array([pow(t, 3), pow(t, 2), t, 1])
     
-            a3 = param3(main_points[i - 1][0], main_points[i][0], main_points[i + 1][0], main_points[i + 2][0])  # x
-            a2 = param2(main_points[i - 1][0], main_points[i][0], main_points[i + 1][0])  # x
-            a1 = param1(main_points[i - 1][0], main_points[i + 1][0])  # x
-            a0 = param0(main_points[i - 1][0], main_points[i][0], main_points[i + 1][0])  # x
-            
-            b3 = param3(main_points[i - 1][1], main_points[i][1], main_points[i + 1][1], main_points[i + 2][1])  # y
-            b2 = param2(main_points[i - 1][1], main_points[i][1], main_points[i + 1][1])  # y
-            b1 = param1(main_points[i - 1][1], main_points[i + 1][1])  # y
-            b0 = param0(main_points[i - 1][1], main_points[i][1], main_points[i + 1][1])  # y
+            x = np.matmul(T, Cx)[0]  # Матрица 1х1
+            y = np.matmul(T, Cy)[0]  # Матрица 1х1
     
-            x_t = ((a3 * t + a2) * t + a1) * t + a0
-            y_t = ((b3 * t + b2) * t + b1) * t + b0
-    
-            points.append((x_t, y_t))
+            points.append((x, y))
     return points
