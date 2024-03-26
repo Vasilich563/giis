@@ -1763,3 +1763,95 @@
 2024-03-27 01:00:50.180 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=78 y=87>
 2024-03-27 01:00:51.028 | DEBUG    | __main__:choose_figure:108 - algorithm: Ermit
 2024-03-27 01:00:51.028 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=48 y=329>
+2024-03-27 01:06:15.795 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:15.796 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=74 y=422>
+2024-03-27 01:06:16.257 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:16.258 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=583 y=205>
+2024-03-27 01:06:17.899 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 01:06:18.430 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:18.430 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=103 y=260>
+2024-03-27 01:06:18.982 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:18.982 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=602 y=51>
+2024-03-27 01:06:20.492 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 01:06:20.885 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:20.886 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=353 y=139>
+2024-03-27 01:06:21.375 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:21.375 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=229 y=60>
+2024-03-27 01:06:22.975 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:22.976 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=101 y=303>
+2024-03-27 01:06:23.396 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:23.397 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=613 y=165>
+2024-03-27 01:06:26.080 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 01:06:26.797 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:26.797 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=43 y=22>
+2024-03-27 01:06:27.369 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:27.370 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=330 y=332>
+2024-03-27 01:06:28.818 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:28.819 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=104 y=172>
+2024-03-27 01:06:29.190 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:29.191 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=253 y=31>
+2024-03-27 01:06:30.254 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:30.254 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=387 y=23>
+2024-03-27 01:06:30.626 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:30.626 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=722 y=272>
+2024-03-27 01:06:32.868 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 01:06:34.710 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:34.710 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=29 y=327>
+2024-03-27 01:06:35.434 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:35.434 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=494 y=223>
+2024-03-27 01:06:36.559 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:36.559 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=120 y=302>
+2024-03-27 01:06:36.911 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:36.911 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=177 y=211>
+2024-03-27 01:06:38.076 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:38.076 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=374 y=100>
+2024-03-27 01:06:38.442 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:38.442 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=393 y=64>
+2024-03-27 01:06:40.007 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 01:06:40.752 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:40.753 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=43 y=49>
+2024-03-27 01:06:41.290 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:41.291 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=311 y=190>
+2024-03-27 01:06:44.263 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:44.263 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=49 y=245>
+2024-03-27 01:06:45.436 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:45.436 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=276 y=265>
+2024-03-27 01:06:46.705 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:46.705 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=276 y=265>
+2024-03-27 01:06:47.582 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:47.582 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=375 y=119>
+2024-03-27 01:06:48.664 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:48.664 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=468 y=347>
+2024-03-27 01:06:49.182 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:49.182 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=21 y=287>
+2024-03-27 01:06:50.568 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 01:06:51.409 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:51.409 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=15 y=8>
+2024-03-27 01:06:52.451 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:06:52.451 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event state=0x4000 num=1 x=386 y=293>
+2024-03-27 01:07:43.625 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:43.625 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=32 y=6>
+2024-03-27 01:07:47.972 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:47.973 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=342 y=183>
+2024-03-27 01:07:48.950 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:48.951 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=212 y=356>
+2024-03-27 01:07:49.336 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:49.337 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=624 y=93>
+2024-03-27 01:07:54.338 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear
+2024-03-27 01:07:55.407 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:55.408 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=48 y=44>
+2024-03-27 01:07:56.139 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:56.139 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=476 y=45>
+2024-03-27 01:07:57.478 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:57.479 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=96 y=285>
+2024-03-27 01:07:57.927 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:07:57.927 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=563 y=119>
+2024-03-27 01:08:01.432 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:08:01.432 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=110 y=329>
+2024-03-27 01:08:02.611 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:08:02.612 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=498 y=85>
+2024-03-27 01:08:04.378 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:08:04.378 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=50 y=5>
+2024-03-27 01:08:04.998 | DEBUG    | __main__:choose_figure:108 - algorithm: B-spline
+2024-03-27 01:08:04.999 | DEBUG    | __main__:choose_figure:109 - <ButtonPress event num=1 x=276 y=333>
+2024-03-27 01:08:07.427 | DEBUG    | __main__:clear_canvas:246 - now canvas is clear

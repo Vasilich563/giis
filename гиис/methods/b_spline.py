@@ -2,7 +2,7 @@ import numpy as np
 
 
 def b_spline(p0, p1, p2, p3, points_amount):
-    main_points = (p0, p0, p1, p2, p3, p3)  # расширение p-1 = p0, p3 + 1 = p3, p3 + 2 = p3
+    main_points = (p0, p0, p1, p2, p3, p3, p3)  # расширение p-1 = p0, p3 + 1 = p3, p3 + 2 = p3
     Ms = np.array(
         [
             [-1, 3, -3, 1],
@@ -13,7 +13,7 @@ def b_spline(p0, p1, p2, p3, points_amount):
     ) / 6.  # Коэффициенты в методе б-сплайн
 
     points = []
-    for i in range(1, 4):  # 1 <= i <= n - 1
+    for i in range(1, 5):  # 1 <= i <= n + 1
         Gsx = np.array(
             [
                 main_points[i - 1][0], main_points[i][0], main_points[i + 1][0], main_points[i + 2][0]
