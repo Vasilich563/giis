@@ -14,7 +14,7 @@ def b_spline(p0, p1, p2, p3, points_amount):
 
     points = []
     for i in range(1, 5):  # 1 <= i <= n + 1
-        Gsx = np.array(
+        sx = np.array(
             [
                 main_points[i - 1][0], main_points[i][0], main_points[i + 1][0], main_points[i + 2][0]
             ]

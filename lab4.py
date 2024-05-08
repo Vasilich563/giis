@@ -86,7 +86,7 @@ class GraphicsEditor3D:
     def __init__(self, root):
         self.root = root
         root.config(bg="blue")
-        self.root.title("3D Graphic Editor")
+        self.root.title("Изображатор 3Д 9000")
 
         self.fig = plt.figure(figsize=(7, 7))
         self.ax = self.fig.add_subplot(111, projection="3d")
